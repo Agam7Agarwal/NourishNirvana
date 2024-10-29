@@ -1,0 +1,35 @@
+// _header.scss
+header {
+  background-color: $primary-color;
+  padding: 1rem 0;
+  nav {
+    max-width: $max-width;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    .navbar-logo img {
+      height: 50px; /* Adjust the height based on your logo size */
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+    }
+    li {
+      padding: 0 15px;
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}

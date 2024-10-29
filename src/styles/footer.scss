@@ -1,0 +1,17 @@
+// _footer.scss
+footer {
+  background-color: $primary-color;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  div {
+    max-width: $max-width;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+}
